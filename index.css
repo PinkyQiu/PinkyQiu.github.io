@@ -1,0 +1,156 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url('http://cn.bing.com/az/hprichbg/rb/SoyuzReturn_ZH-CN9848773206_1920x1080.jpg');
+  background-size: cover;
+}
+
+.wrap {
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0;
+}
+
+.list .list-item {
+  width: 33.4%;
+  padding: 20px 30px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  margin-left: -1px;
+  margin-top: -1px;
+  z-index: 1;
+  transition: all 0.2s;
+}
+
+.list .list-item a {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.list .list-item:hover {
+  z-index: 2;
+  box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.8);
+  transform: scale(1.05);
+}
+
+.list .list-item:hover > a {
+  transform: scale(1.1);
+}
+
+.list .list-item .iconfont {
+  font-size: 32px;
+}
+
+.list .list-item span {
+  display: block;
+  color: #666;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.list .list-item .icon-eliaomo {
+  color: #2295ff;
+}
+
+.list .list-item .icon-baidu {
+  color: #306cff;
+}
+
+.list .list-item .icon-weibo {
+  color: #ff000e;
+}
+
+.list .list-item .icon-taobao {
+  color: #f08300;
+}
+
+.list .list-item .icon-UC {
+  color: #f08300;
+}
+
+.list .list-item .icon-iconfontwangyi {
+  color: #666666;
+}
+
+.list .list-item .icon-mukewang {
+  color: #666666;
+}
+
+.list .list-item .icon-qiu {
+  color: #29b4f5;
+}
+
+.list .list-item .icon-cssdonghua {
+  color: #ddf50e;
+}
+
+.list .list-item .icon-tubiao_tupian {
+  color: #8cdc34;
+}
+
+.list .list-item .icon-rocket {
+  color: #818181;
+}
+
+.list .list-item .icon-icon-c-loading {
+  color: #069af0;
+}
+
+.tab {
+  position: absolute;
+  bottom: -66px;
+  right: 0;
+  font-size: 0;
+}
+
+.tab li {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 160, 220, 0.3);
+  text-align: center;
+  margin-left: 10px;
+}
+
+.tab li.item {
+  background: rgba(0, 160, 220, 0.7);
+}
+
+.tab li a {
+  display: inline-block;
+  font-size: 18px;
+  color: #f4f1ed;
+}
+
+#myCanvas {
+  display: block;
+  /*width: 100%;
+  height: 100%;*/
+  z-index: -1;
+}
